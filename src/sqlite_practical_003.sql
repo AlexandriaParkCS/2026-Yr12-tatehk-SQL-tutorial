@@ -7,7 +7,7 @@
 
 -- create the characters table
 
-SELECT columns FROM characters ADD COLUM height INTEGER;
+ALTER TABLE characters ADD COLUMN height INTEGER;
 
 UPDATE characters SET height = 172 WHERE name = 'Luke Skywalker';
 UPDATE characters SET height = 150 WHERE name = 'Leia Organa';

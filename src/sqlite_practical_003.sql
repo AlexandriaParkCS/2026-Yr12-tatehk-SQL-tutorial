@@ -9,7 +9,7 @@
 
 ALTER TABLE characters ADD COLUMN height INTEGER;
 
-UPDATE characters SET height = 172 WHERE name = 'Luke Skywalker';
+UPDATE characters SET height = 172 WHERE name = 'luke skywalker';
 UPDATE characters SET height = 150 WHERE name = 'Leia Organa';
 UPDATE characters SET height = 180 WHERE name = 'Han Solo';
 UPDATE characters SET height = 228 WHERE name = 'Chewbacca';
